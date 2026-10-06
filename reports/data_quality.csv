@@ -1,0 +1,11 @@
+,value
+train_rows,48000
+train_date_range,2025-01-01 .. 2025-10-31
+validation_date_range,2025-11-01 .. 2025-12-31
+negative_weights_train,292
+negative_weights_validation,145
+missing_weight_train,300
+missing_market_index_train,374
+rate_per_mile_gt_4_train,340
+rate_per_mile_lt_1_train,329
+cities_in_validation_not_in_train,"['Allentown', 'Charlotte', 'Chicago', 'Jackson', 'Knoxville', 'Laredo', 'Norfolk', 'San Diego']"

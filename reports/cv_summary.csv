@@ -1,0 +1,6 @@
+model,MAE,RMSE,MAPE_%,MdAPE_%
+A. baseline: median $/mile by equipment,219.337,662.572,10.535,6.849
+B. HGB + market_index inside trees,124.75,634.407,5.434,2.155
+"C. HGB, no market_index",113.76,632.318,4.905,1.667
+D. HGB + linear market_index (CHOSEN),113.396,632.075,4.919,1.699
+E. D without quote_signal,125.196,636.103,5.299,2.735
